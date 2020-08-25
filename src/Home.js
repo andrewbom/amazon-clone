@@ -10,13 +10,61 @@ const Home = () => {
         src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/gateway/placement/launch/Stargirl_S1/STARG_S1_GWBleedingHero_FT_COVIDUPDATE__XSite_1500X600_PV_en-GB._CB407848724_.jpg"
         alt=""
       />
-      <Product
-        id="123123123"
-        title="The lean startup: how constant innovation creates"
-        price={11.96}
-        rating={5}
-        image="https://images-na.ssl-images-amazon.com/images/I/6182S7MYC2L._AC_UL320_SR320,320_.jpg"
-      />
+      <div className="home__row">
+        <Product
+          id="0001"
+          title="Harry Potter and the Philosopher's Stone"
+          price={10.49}
+          rating={5}
+          image="https://m.media-amazon.com/images/I/51UoqRAxwEL.jpg"
+        />
+        <Product
+          id="0002"
+          title="Funny Costumes Dinosaur Inflatable Costumes"
+          price={34.84}
+          rating={3}
+          image="https://images-na.ssl-images-amazon.com/images/I/71J-YtSUd3L._AC_UX679_.jpg"
+        />
+      </div>
+      <div className="home__row">
+        <Product
+          id="0003"
+          title="Color Club Halographic Hues Nail Polish, Halo, Graphic.05 Ounce"
+          price={11.29}
+          rating={4}
+          image="https://m.media-amazon.com/images/I/71FPuDUhfML._AC_UL480_QL65_.jpg"
+        />
+        <Product
+          id="0004"
+          title="Hamilton Beach Breakfast Sandwich Maker, Silver (25475A) "
+          price={24.99}
+          rating={4}
+          image="https://images-na.ssl-images-amazon.com/images/I/41N8AxIJq4L._AC_SY200_.jpg"
+        />
+        <Product
+          id="0005"
+          title="Artist's Loft Acrylic Paint Value Pack 36 Piece"
+          price={25.35}
+          rating={2}
+          image="https://m.media-amazon.com/images/I/61GEW-MekwL._AC_UL480_QL65_.jpg"
+        />
+      </div>
+      <div className="home__row">
+        <Product
+          id="0006"
+          title="FLY2SKY 28pcs Mochi Squishy Toys Mini Squishies Kawaii Animal Squishys Party Favors Easter Egg Fillers Easter Gifts for Kids Unicorn Cat Panda Animal Squeeze Toy Stress Relief Toy Class Prize, Random "
+          price={8.99}
+          rating={4}
+          image="https://m.media-amazon.com/images/I/61ZA1VRxLOL._AC_UL480_QL65_.jpg"
+        />
+        <Product
+          id="0007"
+          title="Oxford Spiral Notebooks, 1 Subject, College Ruled Paper, Durable Plastic Cover, 100 Sheets, Divider Pocket, 3 per Pack (10390) "
+          price={9.89}
+          rating={1}
+          image="https://images-na.ssl-images-amazon.com/images/I/41OJa46VMDL._AC_US327_QL65_.jpg"
+        />
+      </div>
     </div>
   );
 };
