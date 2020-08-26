@@ -52,17 +52,10 @@ const Home = () => {
       <div className="home__row">
         <Product
           id="0006"
-          title="FLY2SKY 28pcs Mochi Squishy Toys Mini Squishies Kawaii Animal Squishys Party Favors Easter Egg Fillers Easter Gifts for Kids Unicorn Cat Panda Animal Squeeze Toy Stress Relief Toy Class Prize, Random "
-          price={8.99}
-          rating={4}
-          image="https://m.media-amazon.com/images/I/61ZA1VRxLOL._AC_UL480_QL65_.jpg"
-        />
-        <Product
-          id="0007"
-          title="Oxford Spiral Notebooks, 1 Subject, College Ruled Paper, Durable Plastic Cover, 100 Sheets, Divider Pocket, 3 per Pack (10390) "
-          price={9.89}
+          title="KitchenAid KSM150PSER Artisan Tilt-Head Stand Mixer with Pouring Shield, 5-Quart, Empire RedKitchenAid KSM150PSER Artisan Tilt-Head Stand Mixer with Pouring Shield, 5-Quart, Empire Red"
+          price={889.89}
           rating={1}
-          image="https://images-na.ssl-images-amazon.com/images/I/41OJa46VMDL._AC_US327_QL65_.jpg"
+          image="https://images-na.ssl-images-amazon.com/images/I/81EYgXB%2BGOL._AC_SX522_.jpg"
         />
       </div>
     </div>
