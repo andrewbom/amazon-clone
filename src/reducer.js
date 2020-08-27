@@ -1,30 +1,18 @@
 export const initialState = {
-  basket: [
-    {
-      id: "0007",
-      title:
-        "KitchenAid KSM150PSER Artisan Tilt-Head Stand Mixer with Pouring Shield, 5-Quart, Empire RedKitchenAid KSM150PSER Artisan Tilt-Head Stand Mixer with Pouring Shield, 5-Quart, Empire Red",
-      price: 889.89,
-      rating: 1,
-      image: "https://images-na.ssl-images-amazon.com/images/I/81EYgXB%2BGOL._AC_SX522_.jpg",
-    },
-    {
-      id: "0007",
-      title:
-        "KitchenAid KSM150PSER Artisan Tilt-Head Stand Mixer with Pouring Shield, 5-Quart, Empire RedKitchenAid KSM150PSER Artisan Tilt-Head Stand Mixer with Pouring Shield, 5-Quart, Empire Red",
-      price: 889.89,
-      rating: 1,
-      image: "https://images-na.ssl-images-amazon.com/images/I/81EYgXB%2BGOL._AC_SX522_.jpg",
-    },
-  ],
+  basket: [],
   user: null,
 };
 
 export const getBasketTotal = (basket) => basket?.reduce((amount, item) => item.price + amount, 0);
 
 function reducer(state, action) {
-  console.log(action);
+  //   console.log(action);
   switch (action.type) {
+    case "SET_USER":
+      return {
+        ...state,
+        user: action.user,
+      };
     case "ADD_TO_BASKET":
       return {
         ...state,

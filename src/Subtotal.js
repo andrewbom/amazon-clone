@@ -15,9 +15,6 @@ const Subtotal = () => {
             <p>
               Subtotal ({basket.length} items): <strong>{`${value}`}</strong>
             </p>
-            <small className="subtotal__gift">
-              <input type="checkbox" /> This order contains a gift
-            </small>
           </>
         )}
         decimalScale={2}
@@ -26,6 +23,9 @@ const Subtotal = () => {
         thousandSeparator={true}
         prefix={"$"}
       />
+      <small className="subtotal__gift">
+        <input type="checkbox" /> This order contains a gift
+      </small>
       <button>Proceed to Checkout</button>
     </div>
   );
